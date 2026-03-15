@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+
+button {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+button:nth-of-type(odd) {
+    background-color: #000;
+    color: #FFF;
+}
+button:nth-of-type(even) {
+    background-color: #ddc913;
+}
