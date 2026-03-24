@@ -3,7 +3,6 @@
   --header-footer-color: #8f8f8f;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +19,6 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-
 }
 .content {
   display: flex;
@@ -61,18 +59,21 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
-.header, .footer {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 0.3rem;
 }
 
-.left-links, .right-links {
+.left-links,
+.right-links {
   display: flex;
   margin: 0.5rem;
   gap: 0.5rem;
 }
-.header a, .footer a {
+.header__links,
+.footer__links {
   color: var(--header-footer-color);
 }
 
